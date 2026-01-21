@@ -4,41 +4,40 @@ get_header(); ?>
 
 <section class="pagina-contato">
 
-      <div class="container mt-4 mb-4">
-        <h4 class="text-uppercase fw-normal" style="color: #1b365d;">Fale Conosco</h4>
+    <div class="container mt-4 mb-4">
+        <h4 class="text-uppercase fw-normal titulo-principal">Fale Conosco</h4>
     </div>
 
-    <section class="py-5 box-contato" >
+    <section class="py-5 box-contato">
         <div class="container">
             <form class="needs-validation" novalidate>
                 <div class="row g-3">
 
                     <div class="col-md-6">
                         <input type="text" class="form-control rounded-0 p-3" placeholder="NOME COMPLETO"
-                            aria-label="Nome Completo" style="border: none;" required>
+                            aria-label="Nome Completo" required>
                         <div class="invalid-feedback text-white">Por favor, informe seu nome.</div>
                     </div>
 
                     <div class="col-md-6">
                         <input type="email" class="form-control rounded-0 p-3" placeholder="E-MAIL" aria-label="E-mail"
-                            style="border: none;" required>
+                             required>
                         <div class="invalid-feedback text-white">Informe um e-mail válido.</div>
                     </div>
 
                     <div class="col-md-6">
                         <input type="tel" class="form-control rounded-0 p-3" placeholder="TELEFONE COM DDD"
-                            aria-label="Telefone" style="border: none;" required>
+                            aria-label="Telefone" required>
                         <div class="invalid-feedback text-white">Informe seu telefone.</div>
                     </div>
 
                     <div class="col-md-6">
-                        <input type="text" class="form-control rounded-0 p-3" placeholder="CIDADE" aria-label="Cidade"
-                            style="border: none;" required>
+                        <input type="text" class="form-control rounded-0 p-3" placeholder="CIDADE" aria-label="Cidade" required>
                         <div class="invalid-feedback text-white">Informe sua cidade.</div>
                     </div>
 
                     <div class="col-12">
-                        <select class="form-select rounded-0 p-3"required>
+                        <select class="form-select rounded-0 p-3" required>
                             <option selected disabled value="">ASSUNTO</option>
                             <option value="assistencia">Assistência Técnica</option>
                             <option value="financeiro">Financeiro</option>
@@ -51,8 +50,7 @@ get_header(); ?>
                     </div>
 
                     <div class="col-12">
-                        <textarea class="form-control rounded-0 p-3" rows="5" placeholder="MENSAGEM"
-                            style="border: none;" required></textarea>
+                        <textarea class="form-control rounded-0 p-3" rows="5" placeholder="MENSAGEM" required></textarea>
                         <div class="invalid-feedback text-white">Escreva sua mensagem.</div>
                     </div>
 
@@ -60,10 +58,8 @@ get_header(); ?>
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="d-flex align-items-start gap-2">
-                                    <input class="form-check-input rounded-0 mt-1" type="checkbox" id="checkComunicacao"
-                                        style="width: 20px; height: 20px; border: none; cursor: pointer; background-color: white;" required>
-                                    <label class="text-white small" for="checkComunicacao"
-                                        style="line-height: 1.4; cursor: pointer;">
+                                    <input class="form-check-input rounded-0" type="checkbox" id="checkComunicacao" required>
+                                    <label class="text-white small" for="checkComunicacao">
                                         Aceito receber comunicações e ser contatado para atendimento. <span class="text-danger">*</span>
                                     </label>
                                     <div class="invalid-feedback text-white">Você deve aceitar para continuar.</div>
@@ -71,11 +67,9 @@ get_header(); ?>
                             </div>
                             <div class="col-md-6">
                                 <div class="d-flex align-items-start gap-2">
-                                    <input class="form-check-input rounded-0 mt-1" type="checkbox" id="checkPrivacidade"
-                                        style="width: 20px; height: 20px; border: none; cursor: pointer; background-color: white;" required>
-                                    <label class="text-white small" for="checkPrivacidade"
-                                        style="line-height: 1.4; cursor: pointer;">
-                                        Concordo com a <a href="#" class="text-white text-decoration-underline">Política de Privacidade da Construtora Baron</a>. <span class="text-danger">*</span>
+                                    <input class="form-check-input rounded-0" type="checkbox" id="checkPrivacidade" required>
+                                    <label class="text-white small" for="checkPrivacidade">
+                                        Concordo com a <a href="#">Política de Privacidade da Construtora Baron</a>. <span class="text-danger">*</span>
                                     </label>
                                     <div class="invalid-feedback text-white">Você deve concordar com a política.</div>
                                 </div>
@@ -94,31 +88,28 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="py-5 bg-white">
+    <section class="py-5 bg-white secao-infos">
         <div class="container">
             <div class="row g-4 text-center">
 
                 <div class="col-md-4">
-                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center"
-                        style="background-color: #f7f7f7;">
-                        <h6 class="text-uppercase fw-normal mb-2" style="color: #c5a059; letter-spacing: 1px;">NOSSO TELEFONE:</h6>
-                        <p class="fs-5 mb-0" style="color: #1b365d;">(+55) 19 3543.2255</p>
+                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center info-box box-endereco">
+                        <h6 class="text-uppercase fw-normal mb-2">NOSSO TELEFONE:</h6>
+                        <p class="fs-5 mb-0">(+55) 19 3543.2255</p>
                     </div>
                 </div>
 
                 <div class="col-md-4">
-                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center"
-                        style="background-color: #f7f7f7;">
-                        <h6 class="text-uppercase fw-normal mb-2" style="color: #c5a059; letter-spacing: 1px;">NOSSO WHATSAPP:</h6>
-                        <p class="fs-5 mb-0" style="color: #1b365d;">0800-924-2000</p>
+                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center  info-box box-endereco">
+                        <h6 class="text-uppercase fw-normal mb-2">NOSSO WHATSAPP:</h6>
+                        <p class="fs-5 mb-0">0800-924-2000</p>
                     </div>
                 </div>
 
                 <div class="col-md-4">
-                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center"
-                        style="background-color: #f7f7f7;">
-                        <h6 class="text-uppercase fw-normal mb-2" style="color: #c5a059; letter-spacing: 1px;">NOSSO ENDEREÇO:</h6>
-                        <p class="mb-0" style="color: #1b365d; line-height: 1.4;">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center info-box box-endereco">
+                        <h6 class="text-uppercase fw-normal mb-2">NOSSO ENDEREÇO:</h6>
+                        <p class="mb-0">
                             Rua Nunes Machado, 331<br>
                             Centro Araras/SP<br>
                             CEP 13600-020
