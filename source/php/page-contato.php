@@ -1,10 +1,147 @@
-<?php the_post();
-get_header(); ?>
-<section class="page-contato">
-  <div class="container">
-    <h2>envie-nos uma mensagem</h2>
-    <?= do_shortcode('[contact-form-7 id="b09453f" title="Formulário de contato 1"]') ?>
-    <p class="mt-4 mt-lg-0">R. Comendador Tórlogo Dauntre, 198 - Cambuí - Campinas - SP, 13025-270 | (19) 3199-9985</p>
-  </div>  
-</section>
+<?php the_post();
+
+get_header(); ?>
+
+<section class="pagina-contato">
+
+      <div class="container mt-4 mb-4">
+        <h4 class="text-uppercase fw-normal" style="color: #1b365d;">Fale Conosco</h4>
+    </div>
+
+    <section class="py-5 box-contato" >
+        <div class="container">
+            <form class="needs-validation" novalidate>
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <input type="text" class="form-control rounded-0 p-3" placeholder="NOME COMPLETO"
+                            aria-label="Nome Completo" style="border: none;" required>
+                        <div class="invalid-feedback text-white">Por favor, informe seu nome.</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input type="email" class="form-control rounded-0 p-3" placeholder="E-MAIL" aria-label="E-mail"
+                            style="border: none;" required>
+                        <div class="invalid-feedback text-white">Informe um e-mail válido.</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input type="tel" class="form-control rounded-0 p-3" placeholder="TELEFONE COM DDD"
+                            aria-label="Telefone" style="border: none;" required>
+                        <div class="invalid-feedback text-white">Informe seu telefone.</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input type="text" class="form-control rounded-0 p-3" placeholder="CIDADE" aria-label="Cidade"
+                            style="border: none;" required>
+                        <div class="invalid-feedback text-white">Informe sua cidade.</div>
+                    </div>
+
+                    <div class="col-12">
+                        <select class="form-select rounded-0 p-3"required>
+                            <option selected disabled value="">ASSUNTO</option>
+                            <option value="assistencia">Assistência Técnica</option>
+                            <option value="financeiro">Financeiro</option>
+                            <option value="terreno">Ofereça seu terreno</option>
+                            <option value="corretor">Sou corretor (a)</option>
+                            <option value="fornecedor">Sou fornecedor (a)</option>
+                            <option value="trabalhe">Trabalhe conosco</option>
+                        </select>
+                        <div class="invalid-feedback text-white">Selecione um assunto.</div>
+                    </div>
+
+                    <div class="col-12">
+                        <textarea class="form-control rounded-0 p-3" rows="5" placeholder="MENSAGEM"
+                            style="border: none;" required></textarea>
+                        <div class="invalid-feedback text-white">Escreva sua mensagem.</div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start gap-2">
+                                    <input class="form-check-input rounded-0 mt-1" type="checkbox" id="checkComunicacao"
+                                        style="width: 20px; height: 20px; border: none; cursor: pointer; background-color: white;" required>
+                                    <label class="text-white small" for="checkComunicacao"
+                                        style="line-height: 1.4; cursor: pointer;">
+                                        Aceito receber comunicações e ser contatado para atendimento. <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="invalid-feedback text-white">Você deve aceitar para continuar.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start gap-2">
+                                    <input class="form-check-input rounded-0 mt-1" type="checkbox" id="checkPrivacidade"
+                                        style="width: 20px; height: 20px; border: none; cursor: pointer; background-color: white;" required>
+                                    <label class="text-white small" for="checkPrivacidade"
+                                        style="line-height: 1.4; cursor: pointer;">
+                                        Concordo com a <a href="#" class="text-white text-decoration-underline">Política de Privacidade da Construtora Baron</a>. <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="invalid-feedback text-white">Você deve concordar com a política.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                        <button type="submit" class="btn rounded-0 px-5 py-3 fw-bold text-white border-0 btn-enviar">
+                            ENVIAR
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row g-4 text-center">
+
+                <div class="col-md-4">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background-color: #f7f7f7;">
+                        <h6 class="text-uppercase fw-normal mb-2" style="color: #c5a059; letter-spacing: 1px;">NOSSO TELEFONE:</h6>
+                        <p class="fs-5 mb-0" style="color: #1b365d;">(+55) 19 3543.2255</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background-color: #f7f7f7;">
+                        <h6 class="text-uppercase fw-normal mb-2" style="color: #c5a059; letter-spacing: 1px;">NOSSO WHATSAPP:</h6>
+                        <p class="fs-5 mb-0" style="color: #1b365d;">0800-924-2000</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-center align-items-center"
+                        style="background-color: #f7f7f7;">
+                        <h6 class="text-uppercase fw-normal mb-2" style="color: #c5a059; letter-spacing: 1px;">NOSSO ENDEREÇO:</h6>
+                        <p class="mb-0" style="color: #1b365d; line-height: 1.4;">
+                            Rua Nunes Machado, 331<br>
+                            Centro Araras/SP<br>
+                            CEP 13600-020
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5 bg-white">
+        <div class="container-fluid px-0">
+            <div class="container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.076364654608!2d-47.38714042382894!3d-22.40171227961601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8772391217e9f%3A0x6e269229f3d67f4!2sR.%20Nunes%20Machado%2C%20331%20-%20Centro%2C%20Araras%20-%20SP%2C%2013600-020!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+</section>
+
 <?php get_footer() ?>

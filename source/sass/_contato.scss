@@ -1,0 +1,22 @@
+.pagina-contato{
+    .box-contato{
+        background-color: $azulEscuro;
+        form{
+            input,textarea{
+
+            }
+            .btn-enviar{
+                background-color: $amareloDorado; 
+                min-width: 200px; 
+                letter-spacing: 1px;
+            }
+            select{
+                border: none; 
+                color: $azulEscuro; 
+                font-weight: 600; 
+                text-transform: uppercase; 
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
