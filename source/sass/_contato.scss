@@ -1,0 +1,111 @@
+.pagina-contato {
+    
+    // Título principal da página "Fale Conosco"
+    .titulo-principal {
+        color: $azulEscuro;
+    }
+
+    // Seção do Formulário (Fundo Azul)
+    .box-contato {
+        background-color: $azulEscuro;
+
+        form {
+            // Estilos gerais para inputs e textareas
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"],
+            textarea {
+                border: none;
+                &:focus {
+                    box-shadow: none; // Remove o glow padrão do Bootstrap se desejar
+                    background-color: #fff;
+                }
+            }
+
+            // Select específico
+            select {
+                border: none;
+                color: $azulEscuro;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 0.9rem;
+                cursor: pointer;
+                
+                // Estiliza a opção placeholder (primeira opção)
+                option[disabled] {
+                    color: #999;
+                }
+            }
+
+            // Checkboxes customizados
+            .form-check-input {
+                width: 20px;
+                height: 20px;
+                border: none;
+                cursor: pointer;
+                background-color: white;
+                margin-top: 0.25rem; // Pequeno ajuste de alinhamento com o texto
+
+                &:checked {
+                    background-color: $amareloDorado; // Cor ao marcar
+                    background-image: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>"));
+                }
+            }
+
+            // Labels dos checkboxes e links
+            label {
+                line-height: 1.4;
+                cursor: pointer;
+                
+                a {
+                    color: white;
+                    text-decoration: underline !important;
+                    &:hover {
+                        color: $amareloDorado;
+                    }
+                }
+            }
+
+            // Botão de Enviar
+            .btn-enviar {
+                background-color: $amareloDorado;
+                min-width: 200px;
+                letter-spacing: 1px;
+                transition: all 0.3s ease;
+                
+                &:hover {
+                    background-color: darken($amareloDorado, 10%);
+                    color: white;
+                }
+            }
+        }
+    }
+
+    // Seção de Informações (Telefone, Whats, Endereço)
+    .secao-infos {
+        .info-box {
+            // Títulos (NOSSO TELEFONE, ETC)
+            h6 {
+                color: #333; // Default
+            }
+            
+            p {
+                color: $azulEscuro;
+            }
+
+            // Modificador específico para a caixa de endereço (fundo cinza)
+            &.box-endereco {
+                background-color: $brancoGelo;
+                
+                h6 {
+                    color: $amareloDorado;
+                    letter-spacing: 1px;
+                }
+                
+                p {
+                    line-height: 1.4;
+                }
+            }
+        }
+    }
+}
