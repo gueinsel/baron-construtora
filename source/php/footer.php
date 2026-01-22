@@ -1,5 +1,3 @@
-
-
     <footer class="pt-5 text-white" style="background-color: #1b365d; font-size: 0.9rem;">
         <div class="container pb-5">
             <div class="row g-4">
@@ -52,31 +50,31 @@
                 <div class="col-lg-3 col-md-6">
                     <h6 class="fw-bold text-uppercase mb-4">LINKS RÁPIDOS</h6>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">A Baron</a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Empreendimentos</a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Portal do Cliente</a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Indique e Ganhe</a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Trabalhe Conosco</a></li>
+                        <li class="mb-2"><a href="#" class="text-white link-footer">A Baron</a></li>
+                        <li class="mb-2"><a href="#" class="text-white link-footer">Empreendimentos</a></li>
+                        <li class="mb-2"><a href="#" class="text-white link-footer">Portal do Cliente</a></li>
+                        <li class="mb-2"><a href="#" class="text-white link-footer">Indique e Ganhe</a></li>
+                        <li class="mb-2"><a href="#" class="text-white link-footer">Trabalhe Conosco</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <h6 class="fw-bold text-uppercase mb-4">GRUPO BRN</h6>
                     <ul class="list-unstyled mb-4">
-                        <li><a href="#" class="text-white text-decoration-none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Sobre a BRN</a></li>
+                        <li><a href="#" class="text-white link-footer">Sobre a BRN</a></li>
                     </ul>
 
                     <h6 class="fw-bold text-uppercase mb-4">CENTRAL DE AJUDA</h6>
                     <ul class="list-unstyled mb-4">
-                        <li><a href="#" class="text-white text-decoration-none" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Política de Privacidade</a></li>
+                        <li><a href="#" class="text-white link-footer">Política de Privacidade</a></li>
                     </ul>
 
                     <div class="d-flex gap-2">
-                        <a href="#" class="d-flex align-items-center justify-content-center text-white text-decoration-none rounded-circle"
+                        <a href="#" class="d-flex align-items-center justify-content-center text-white rounded-circle"
                             style="width: 35px; height: 35px; background-color: #c5a059;">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="d-flex align-items-center justify-content-center text-white text-decoration-none rounded-circle"
+                        <a href="#" class="d-flex align-items-center justify-content-center text-white rounded-circle"
                             style="width: 35px; height: 35px; background-color: #c5a059;">
                             <i class="fab fa-youtube"></i>
                         </a>
@@ -93,7 +91,7 @@
                     Desenvolvido por Agência Narro.
                 </p>
             </div>
-            <a href="#" class="position-absolute bottom-0 start-0 m-3 bg-dark text-white d-flex align-items-center justify-content-center text-decoration-none"
+            <a href="#" class="position-absolute bottom-0 start-0 m-3 bg-dark text-white d-flex align-items-center justify-content-center"
                 style="width: 40px; height: 40px; opacity: 0.5;">
                 <i class="fas fa-chevron-up"></i>
             </a>

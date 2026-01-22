@@ -107,13 +107,13 @@
                 <ul class="navbar-nav ms-auto align-items-center w-100 justify-content-end gap-3 pt-4 pt-lg-0"
                     style="font-size: 0.85rem;">
 
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" style="color: #1b365d;">A Baron</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" style="color: #1b365d;">Grupo BRN</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" style="color: #1b365d;">Empreendimentos</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" style="color: #1b365d;">Portal do Cliente</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" style="color: #1b365d;">Canal de Parcerias</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" style="color: #1b365d;">Indique e Ganhe</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" style="color: #c5a059;">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('a-baron')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >A Baron</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('grupo-brn')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >Grupo BRN</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('empreendimentos')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >Empreendimentos</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" >Portal do Cliente</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" >Canal de Parcerias</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" >Indique e Ganhe</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('contato')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >Contato</a></li>
                 </ul>
             </div>
 
