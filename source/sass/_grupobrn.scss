@@ -1,0 +1,167 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitulo {
+    color: $dourado-baron;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo {
+    color: $azul-baron;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    
+    @media (max-width: 768px) {
+        font-size: 1.8rem;
+    }
+}
+
+.secao-padrao {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bg-cinza {
+    background-color: $cinza-fundo;
+}
+
+.secao-banner {
+    width: 100%;
+    padding: 0;
+    
+    .banner-img {
+        object-fit: cover;
+    }
+
+    .faixa-azul-separadora {
+        background-color: $azul-baron;
+        height: 15px;
+        width: 100%;
+    }
+}
+
+.secao-sede {
+    .img-sede {
+        min-height: 450px;
+        object-fit: cover;
+    }
+
+    .box-azul-sobreposto {
+        background-color: $azul-baron;
+        padding: 3rem;
+        color: white;
+        position: relative;
+        z-index: 10;
+        
+        .texto-descritivo {
+            line-height: 1.6;
+            font-size: 0.95rem;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-saiba-mais {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            border-bottom: 2px solid $dourado-baron;
+            padding-bottom: 5px;
+            transition: all 0.3s;
+
+            &:hover {
+                color: $dourado-baron;
+                border-color: white;
+            }
+        }
+
+        @media (min-width: 992px) {
+            margin-left: -80px;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 991px) {
+            margin-left: 0;
+            margin-top: 0;
+            border-radius: 0 0 4px 4px;
+        }
+    }
+}
+
+.secao-historia {
+    .titulo-destaque {
+        color: $azul-baron;
+        font-weight: 400;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+    }
+
+    .texto-corrido {
+        color: $texto-cinza;
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+}
+
+.secao-numeros {
+    .box-intro-numeros {
+        max-width: 900px;
+    }
+
+    .titulo-centralizado {
+        color: $azul-baron;
+        font-weight: 400;
+    }
+
+    .texto-intro {
+        color: $texto-cinza;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .hover-zoom {
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+}
+
+.secao-logos {
+    .box-cinza {
+        background-color: $cinza-box;
+        padding: 1.5rem;
+        border-radius: 4px;
+    }
+
+    .titulo-box {
+        color: $azul-baron;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-logo {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        transition: box-shadow 0.3s;
+
+        &:hover {
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        }
+    }
+}
