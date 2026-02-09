@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secao-padrao {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.subtitulo-dourado {
+    color: $amareloDorado;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo-azul {
+    color: $azulEscuro;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.baron-hero {
+    width: 100%;
+    padding: 0;
+    position: relative;
+
+    .hero-img {
+        object-fit: cover;
+        min-height: 400px;
+    }
+
+    .faixa-dourada {
+        background-color: $amareloDorado;
+        height: 15px;
+        width: 100%;
+    }
+}
+
+.secao-proposito {
+    .texto-conteudo {
+        p {
+            color: $texto-cinza;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            
+            strong {
+                font-weight: 700;
+                color: $azulEscuro;
+            }
+        }
+    }
+
+    .box-video {
+        border-radius: 4px;
+        overflow: hidden;
+        iframe {
+            border: 0;
+        }
+    }
+}
+
+.secao-diferenciais {
+    background-color: $cinza-box; 
+
+    .icon-wrapper {
+        img {
+            height: 60px;
+        }
+    }
+
+    .titulo-item {
+        color: $azulEscuro;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .desc-principal {
+        color: #444; 
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+    }
+
+    .desc-secundaria {
+        color: $texto-cinza;
+        font-size: 0.85rem;
+        line-height: 1.6;
+    }
+}
+
+.secao-essencia {
+    
+    .box-cinza-claro {
+        background-color: $cinza-fundo; 
+        padding: 3rem;
+        height: 100%;
+    }
+
+    .titulo-box {
+        color: $azulEscuro;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .texto-box {
+        color: $texto-cinza;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+
+    .item-valor {
+        h6 {
+            color: $azulEscuro;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: $texto-cinza;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+    }
+}
