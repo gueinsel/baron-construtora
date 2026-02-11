@@ -5,7 +5,7 @@ get_header(); ?>
 
 <section class="baron-hero">
     <div class="container-fluid px-0">
-        <img src="img/banner_baron_elevar-scaled.webp" class="img-fluid w-100 hero-img" alt="Elevamos o padrão de viver bem">
+        <img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/banner_baron_elevar-scaled.webp" class="img-fluid w-100 hero-img" alt="Elevamos o padrão de viver bem">
     </div>
     <div class="faixa-dourada"></div>
 </section>
@@ -50,28 +50,28 @@ get_header(); ?>
 
         <div class="row g-4">
             <div class="col-md-6 col-lg-3">
-                <div class="mb-4 icon-wrapper"><img src="img/Vector-4.png" alt="Solidez"></div>
+                <div class="mb-4 icon-wrapper"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/Vector-4.png" alt="Solidez"></div>
                 <h4 class="titulo-item">Solidez</h4>
                 <p class="desc-principal">Construção com base sólida, precisão e confiança.</p>
                 <p class="desc-secundaria">A Baron une experiência, engenharia de qualidade e processos bem executados para entregar empreendimentos seguros, duradouros e com alto padrão técnico do projeto à entrega.</p>
             </div>
 
             <div class="col-md-6 col-lg-3">
-                <div class="mb-4 icon-wrapper"><img src="img/Vector-1.png" alt="Design"></div>
+                <div class="mb-4 icon-wrapper"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/Vector-1.png" alt="Design"></div>
                 <h4 class="titulo-item">Design</h4>
                 <p class="desc-principal">Estética com intenção, arquitetura que valoriza o viver.</p>
                 <p class="desc-secundaria">Cada projeto nasce com identidade própria, combinando beleza e funcionalidade. Ambientes planejados para proporcionar conforto, bem-estar e sofisticação real.</p>
             </div>
 
             <div class="col-md-6 col-lg-3">
-                <div class="mb-4 icon-wrapper"><img src="img/Vector-2-1.png" alt="Sofisticação"></div>
+                <div class="mb-4 icon-wrapper"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/Vector-2-1.png" alt="Sofisticação"></div>
                 <h4 class="titulo-item">Sofisticação</h4>
                 <p class="desc-principal">Mais do que imóveis, experiências com valor em cada detalhe.</p>
                 <p class="desc-secundaria">A Baron transforma espaços em experiências sensoriais e emocionais, elevando a forma de viver com equilíbrio, elegância e atenção ao que realmente importa.</p>
             </div>
 
             <div class="col-md-6 col-lg-3">
-                <div class="mb-4 icon-wrapper"><img src="img/Vector-3.png" alt="Experiência"></div>
+                <div class="mb-4 icon-wrapper"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/Vector-3.png" alt="Experiência"></div>
                 <h4 class="titulo-item">Experiência</h4>
                 <p class="desc-principal">Conhecimento que constrói com excelência e visão de futuro.</p>
                 <p class="desc-secundaria">A Baron une a tradição do Grupo BRN a uma equipe especializada, criando empreendimentos planejados com qualidade e foco em gerar valor duradouro para moradores e investidores.</p>
@@ -82,7 +82,7 @@ get_header(); ?>
 
 <section class="w-100 p-0">
     <div class="container-fluid px-0">
-        <img src="img/banner_azul-2-1.jpg" class="img-fluid w-100" alt="Mais do que construir" style="object-fit: cover;">
+        <img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/banner_azul-2-1.jpg" class="img-fluid w-100" alt="Mais do que construir" style="object-fit: cover;">
     </div>
 </section>
 

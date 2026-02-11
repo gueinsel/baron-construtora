@@ -1,21 +1,44 @@
-header{
-  position: sticky;
+header {
+  // --- ESTILO PADRÃO (TRANSPARENTE/FLUTUANTE - USADO NA HOME) ---
+  position: absolute; 
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 999999999999;
-  
+  background-color: transparent;
   font-weight: bold;
-  .navbar{
-    .navbar-nav{
-      .nav-item{
-        .nav-link{
-          color: $azulEscuro;
-          &:hover, &.link-ativo{
+  transition: all 0.3s ease;
+
+  .navbar {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none;
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $azulEscuro; // Cor do texto
+
+          &:hover,
+          &.link-ativo {
             color: $amareloDorado;
           }
         }
       }
     }
   }
+
+  // --- ESTILO SÓLIDO (PARA PÁGINAS INTERNAS) ---
+  // Isso sobrescreve o estilo acima quando a classe .header-solido estiver presente
+  &.header-solido {
+    position: relative; // 'Relative' faz o header ocupar espaço e empurrar o conteúdo para baixo
+    background-color: #ffffff !important; // Fundo Branco Sólido
+    border-bottom: 1px solid #eee; // Uma linhazinha sutil para separar
+    
+    // Se quiser que o menu fique FIXO no topo ao rolar nas páginas internas também,
+    // mude 'position: relative' para 'position: sticky' e 'top: 0'.
+  }
+
   @media (min-width: map-get($grid-breakpoints, lg )) {
   
   }

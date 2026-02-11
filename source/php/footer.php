@@ -50,11 +50,11 @@
                 <div class="col-lg-3 col-md-6">
                     <h6 class="fw-bold text-uppercase mb-4">LINKS RÁPIDOS</h6>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white link-footer">A Baron</a></li>
-                        <li class="mb-2"><a href="#" class="text-white link-footer">Empreendimentos</a></li>
-                        <li class="mb-2"><a href="#" class="text-white link-footer">Portal do Cliente</a></li>
-                        <li class="mb-2"><a href="#" class="text-white link-footer">Indique e Ganhe</a></li>
-                        <li class="mb-2"><a href="#" class="text-white link-footer">Trabalhe Conosco</a></li>
+                        <li class="mb-2"><a href="<?php echo get_site_url () ?>/a-baron" class="text-white link-footer">A Baron</a></li>
+                        <li class="mb-2"><a href="<?php echo get_site_url () ?>/empreendimentos" class="text-white link-footer">Empreendimentos</a></li>
+                        <li class="mb-2"><a href="https://clientesbrnbrasil.megaerp.online/" target = "_blank" class="text-white link-footer">Portal do Cliente</a></li>
+                        <li class="mb-2"><a href="https://www.brnvendas.com.br/indique-ganhe/" target = "_blank" class="text-white link-footer">Indique e Ganhe</a></li>
+                        <li class="mb-2"><a href="https://brnpar.gupy.io/" target = "_blank" class="text-white link-footer">Trabalhe Conosco</a></li>
                     </ul>
                 </div>
 

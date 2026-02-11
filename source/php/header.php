@@ -80,15 +80,16 @@
 
 
 
-	<header class="menu-fixo">
+	<header class="menu-fixo <?php if( !is_front_page() ) { echo 'header-solido'; } ?>">
 
-		    <nav class="navbar navbar-expand-lg bg-white border-bottom py-3 sticky-top">
-        <div class="container position-relative">
 
-            <a class="navbar-brand me-auto" href="#">
-                <img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/Asset-1baron_log_cor.png" alt="Baron Construtora"
-                    style="height: 55px; max-width: 100%; object-fit: contain;">
-            </a>
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container position-relative">
+
+                <a class="navbar-brand me-auto" href="<?php echo get_site_url () ?>/home">
+                    <img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/Asset-1baron_log_cor.png" alt="Baron Construtora"
+                        style="height: 55px; max-width: 100%; object-fit: contain;">
+                </a>
 
             <div class="d-flex align-items-center order-lg-last ms-3">
                 
@@ -107,13 +108,13 @@
                 <ul class="navbar-nav ms-auto align-items-center w-100 justify-content-end gap-3 pt-4 pt-lg-0"
                     style="font-size: 0.85rem;">
 
-                    <li class="nav-item"><a class="nav-link <?php if(is_page('a-baron')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >A Baron</a></li>
-                    <li class="nav-item"><a class="nav-link <?php if(is_page('grupo-brn')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >Grupo BRN</a></li>
-                    <li class="nav-item"><a class="nav-link <?php if(is_page('empreendimentos')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >Empreendimentos</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" >Portal do Cliente</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" >Canal de Parcerias</a></li>
-                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="#" >Indique e Ganhe</a></li>
-                    <li class="nav-item"><a class="nav-link <?php if(is_page('contato')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="#" >Contato</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('a-baron')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="<?php echo get_site_url () ?>/a-baron" >A Baron</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('grupo-brn')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="<?php echo get_site_url () ?>/grupo-brn" >Grupo BRN</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('empreendimentos')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="<?php echo get_site_url () ?>/empreendimentos" >Empreendimentos</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="https://clientesbrnbrasil.megaerp.online/" target = "_blank" >Portal do Cliente</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="https://brn.com.br/venda-com-a-gente" target = "_blank" >Canal de Parcerias</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase fw-semibold text-nowrap" href="https://www.brnvendas.com.br/indique-ganhe/" target = "_blank" >Indique e Ganhe</a></li>
+                    <li class="nav-item"><a class="nav-link <?php if(is_page('contato')){ echo 'link-ativo'; } ?> text-uppercase fw-semibold text-nowrap" href="<?php echo get_site_url () ?>/contato" >Contato</a></li>
                 </ul>
             </div>
 

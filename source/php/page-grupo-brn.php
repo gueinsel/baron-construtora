@@ -4,7 +4,7 @@ get_header(); ?>
 
 <section class="secao-banner">
     <div class="container-fluid px-0 position-relative">
-        <img src="img/banner_grupo_brn-scaled.webp" class="img-fluid w-100 banner-img" alt="Banner Aéreo Grupo BRN">
+        <img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/banner_grupo_brn-scaled.webp" class="img-fluid w-100 banner-img" alt="Banner Aéreo Grupo BRN">
     </div>
     <div class="faixa-azul-separadora"></div>
 </section>
@@ -19,7 +19,7 @@ get_header(); ?>
 
         <div class="row align-items-center">
             <div class="col-lg-7 px-0">
-                <img src="img/sede.webp" class="img-fluid w-100 shadow-sm img-sede" alt="Sede Grupo BRN">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/sede.webp" class="img-fluid w-100 shadow-sm img-sede" alt="Sede Grupo BRN">
             </div>
             <div class="col-lg-5">
                 <div class="box-azul-sobreposto shadow-lg">
@@ -40,7 +40,7 @@ get_header(); ?>
 
         <div class="row align-items-center gx-5">
             <div class="col-lg-5 mb-4 mb-lg-0">
-                <img src="img/BRN-Aracatuba-114-1.webp" class="img-fluid w-100 shadow-sm" alt="Casal BRN">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/BRN-Aracatuba-114-1.webp" class="img-fluid w-100 shadow-sm" alt="Casal BRN">
             </div>
             <div class="col-lg-7">
                 <h3 class="titulo-destaque mb-4">
@@ -65,11 +65,11 @@ get_header(); ?>
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center lista-icones">
-            <div class="col"><img src="img/I-ENTREGA-NO.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="+8 Mil Lares"></div>
-            <div class="col"><img src="img/I-CITY-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="Presença em 47 cidades"></div>
-            <div class="col"><img src="img/I-CONTRUCAO-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="+1.55 milhão de m2"></div>
-            <div class="col"><img src="img/I-INTEC-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="Reconhecida INTEC Brasil"></div>
-            <div class="col"><img src="img/I-15ANOS-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="+15 anos de atuação"></div>
+            <div class="col"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/I-ENTREGA-NO.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="+8 Mil Lares"></div>
+            <div class="col"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/I-CITY-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="Presença em 47 cidades"></div>
+            <div class="col"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/I-CONTRUCAO-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="+1.55 milhão de m2"></div>
+            <div class="col"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/I-INTEC-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="Reconhecida INTEC Brasil"></div>
+            <div class="col"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/I-15ANOS-ON.png" class="img-fluid w-100 shadow-sm hover-zoom" alt="+15 anos de atuação"></div>
         </div>
 
     </div>
@@ -84,11 +84,11 @@ get_header(); ?>
                     <h5 class="titulo-box">Certificações</h5>
                     
                     <div class="row row-cols-3 g-3">
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-mid@2x.webp" class="img-fluid" alt="Mid"></div></div>
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-moore@2x.webp" class="img-fluid" alt="Moore"></div></div>
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-intec2025@2x.webp" class="img-fluid" alt="Intec"></div></div>
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-iso2015@2x.webp" class="img-fluid" alt="ISO"></div></div>
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-gptw@2x.webp" class="img-fluid" alt="GPTW"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-mid@2x.webp" class="img-fluid" alt="Mid"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-moore@2x.webp" class="img-fluid" alt="Moore"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-intec2025@2x.webp" class="img-fluid" alt="Intec"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-iso2015@2x.webp" class="img-fluid" alt="ISO"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-gptw@2x.webp" class="img-fluid" alt="GPTW"></div></div>
                     </div>
                 </div>
             </div>
@@ -98,10 +98,10 @@ get_header(); ?>
                     <h5 class="titulo-box">Parceiros</h5>
                     
                     <div class="row row-cols-3 g-3">
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-caixa@2x.webp" class="img-fluid" alt="Caixa"></div></div>
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-novocasapaulista@2x.webp" class="img-fluid" alt="Casa Paulista"></div></div>
-                        <div class="col"><div class="card-logo"><img src="img/imeg_bar-1.webp" class="img-fluid" alt="Nossa Casa"></div></div>
-                        <div class="col"><div class="card-logo"><img src="img/img-stamp-mcmv@2x.webp" class="img-fluid" alt="MCMV"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-caixa@2x.webp" class="img-fluid" alt="Caixa"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-novocasapaulista@2x.webp" class="img-fluid" alt="Casa Paulista"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/imeg_bar-1.webp" class="img-fluid" alt="Nossa Casa"></div></div>
+                        <div class="col"><div class="card-logo"><img src="<?= get_stylesheet_directory_uri(); ?>/dist/img/img-stamp-mcmv@2x.webp" class="img-fluid" alt="MCMV"></div></div>
                     </div>
                 </div>
             </div>
