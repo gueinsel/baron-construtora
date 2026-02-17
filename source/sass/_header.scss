@@ -33,7 +33,7 @@ header {
   &.header-solido {
     position: relative; // 'Relative' faz o header ocupar espaço e empurrar o conteúdo para baixo
     background-color: #ffffff !important; // Fundo Branco Sólido
-    border-bottom: 1px solid #eee; // Uma linhazinha sutil para separar
+    // border-bottom: 1px solid #eee; // Uma linhazinha sutil para separar
     
     // Se quiser que o menu fique FIXO no topo ao rolar nas páginas internas também,
     // mude 'position: relative' para 'position: sticky' e 'top: 0'.

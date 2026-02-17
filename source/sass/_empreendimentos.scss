@@ -1,0 +1,96 @@
+.page-empreendimentos{
+    padding: 0 10%;
+    hr{
+        opacity: 1;
+        border-color: #9D9D9C;
+    }
+    h2{
+        font-family: "Helvetica", Sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        color: #132F55;
+        text-align: center;
+    }
+    .filtro-status{
+        .filtro-statu{
+            border: 0;
+            background: none;
+            color: #132F55;
+            font-weight: 500;
+            text-transform: uppercase;
+            &:hover, .ativo{
+                color: $dourado-baron;
+            }
+        }
+    }
+    .filtros-bases{
+        display: flex;
+        gap: 20px;
+        .filtro-cidades,.filtro-tipos,.filtro-dorms,.filtro-metragem{
+            padding-top: 15px;
+            select{
+                padding: 7px 0px;
+                font-size: 16px;
+                font-family: Helvetica, Arial, sans-serif;
+                color: #132F55;
+                border-radius: 4px;
+                margin-right: 10px;
+                width: 260px;
+                box-sizing: border-box;
+            }
+        }
+        .filtro-metragem{
+            position: relative;
+            
+            label,input{
+                margin-top: 10px;
+            }
+            label{
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 12px;
+                text-transform: uppercase;
+                color: #132F55;
+                letter-spacing: 0.5px;
+                padding-bottom: 6px;
+            }
+            input{
+                -webkit-appearance: none;
+                appearance: none;
+                height: 6px;
+                border-radius: 3px;
+                background: #132F55;
+                outline: none;
+            }
+            /* Thumb styles for Webkit browsers */
+            input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none; /* Override default look */
+                appearance: none;
+                margin-top: -2px; /* Adjust to center vertically on the track */
+                height: 15px;
+                width: 15px;
+                background: #fff;
+                border: 2px solid #132F55; 
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            /* Thumb styles for Firefox */
+            input[type="range"]::-moz-range-thumb {
+                height: 15px;
+                width: 15px;
+                margin-top: -2px; /* Adjust to center vertically on the track */
+                background: #fff;
+                border: 2px solid #132F55;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .valores-metragem{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

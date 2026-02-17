@@ -39,15 +39,15 @@ $grid-breakpoints: (
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 $azulEscuro : #1b365d ;
-$amareloDorado : #c5a059 ;
+$amareloDorado : #B39859 ;
 $brancoGelo :  #f7f7f7 ;
 $cinza-fundo: #f9f9f9;
 $cinza-box: #f2f2f2;
 $texto-cinza: #6c757d;
 $azul-nav: #0e244b;
 $azul-contato: #122a46;
-
-
+$dourado-baron: #B39859;
+$azul-baron: #132F55;
 
 body {
   font-family: "Montserrat", serif;
@@ -136,4 +136,4 @@ a {
   padding-right: 15px;
   z-index: 10;
 }
-@import "footer", "header", "home", "contato";
+@import "footer", "header", "home", "contato", "altaflora", "abaron", "grupobrn", "empreendimentos";
