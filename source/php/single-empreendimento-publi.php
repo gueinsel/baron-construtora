@@ -309,5 +309,48 @@ the_post();
     var swiperThumbnails = new Swiper(".mySwiperThumbnails", swiperConfig);
     var swiperPlantas = new Swiper(".mySwiperPlantas", swiperConfig);
 </script>
+<script>
+	
+    document.addEventListener('DOMContentLoaded', function() {
+        
+           $().on('submit', 'form.elementor-form', function(event) {
+                
+                var formData = new FormData(this);
+								var nomeCompleto = formData.entries().toArray()[4][1];
+								var emailCliente = formData.entries().toArray()[6][1];
+								var telefoneForm = formData.entries().toArray()[5][1];
+								var ddd = telefoneForm.slice(1, 3);
+								var telefoneCliente = telefoneForm.slice(5).replace('-', '');
+							  var cidadeCliente = formData.entries().toArray()[7][1];
+                var codigoEmpreendimento = jQuery('.codigoEmpreendimento').text();
+								var url = 'https://brnpar.multidadosti.com.br//webservices/rest/api.php?api_method=incluir_oc&usuario_ws=integra.site&senha_ws=brnsite123&cod_divisao=landing_pages&cod_solicitacao=sol_landing_pages&codigo_midia=MID10&codigo_empreendimento_interesse='+codigoEmpreendimento+'&nome_cliente='+nomeCompleto+'&email_cliente='+emailCliente+'&ddd_res_cliente='+ddd+'&tel_res_cliente='+telefoneCliente+'&cidade_cliente='+cidadeCliente;
+								jQuery.ajax({
 
+									url: url,
+
+									type: 'POST',
+
+
+
+									dataType: 'json',
+
+									statusCode: {
+
+											200: function (data , status, xhr) {
+
+											console.log(data);
+
+											},
+											404: function () {
+													alert('Ops, houve algum erro');
+											},
+											500: function () {
+													alert('Ops, houve algum erro');
+											}
+									}
+							});							
+            });
+        
+    });
+</script>
 <?php get_footer(); ?>
